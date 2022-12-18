@@ -1,0 +1,324 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: burlywood;
+    margin: 0;
+}
+
+
+header{
+    display: flex;
+    flex-flow: row ;
+    width: 100%;
+    background-color: orangered;
+    padding: 1em;
+
+}
+.settings{
+    align-self: center;
+
+    margin-left: 70%;
+    width: auto;
+    height: auto;
+    background-color: mediumslateblue;
+
+    text-align: center;
+    font: 1.2em Arial;
+}
+
+.settings:hover{
+    background-color: greenyellow ;
+}
+
+
+.left_side{
+    width: 20%;
+    height: 50em;
+    background-color: lightyellow;
+
+}
+
+.right_side{
+    width: 55%;
+    background-color: skyblue;
+}
+
+.navigate{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    list-style: none;
+
+    padding: 0;
+    margin-top: 20px;
+
+
+}
+
+
+.nav_items a{
+    display: flex;
+    flex-flow: column wrap;
+
+    background-color: aquamarine;
+    text-decoration: none;
+    color: black;
+
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+
+    padding: 0.4em;
+    margin: 0.9em 0em;
+}
+.nav_items a:hover{
+    background-color: deepskyblue;
+}
+
+.inform{
+    display: flex;
+    flex-flow: row wrap;
+
+
+    background-color: lightyellow;
+
+    padding: 0.5em;
+}
+
+.name{
+    font: 16px Arial;
+    margin-left: 2%;
+
+}
+.status{
+    font: 16px Arial;
+    margin-left: 70%;
+}
+
+.main_menu{
+    display: flex;
+    flex-flow: row wrap;
+
+    padding: 10px;
+}
+
+.left_main{
+
+    width: 50%;
+
+    background-color: chocolate;
+}
+
+.right_main{
+    width: 50%;
+    background-color: rebeccapurple;
+}
+.photo{
+
+    width: 20em;
+    height: 13em;
+    margin: 10px;
+    background-color: darkmagenta;
+
+}
+.photo p{
+    padding-top: 5em;
+    text-align: center;
+}
+
+.function{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.add_friend{
+    background-color: darkturquoise;
+
+    margin-left: 40%;
+}
+.send_mes{
+    background-color: silver;
+
+}
+.extra_things{
+    display: flex;
+    flex-flow: column wrap;
+}
+.subscribes{
+    margin: 0em 5em;
+    text-align: center;
+}
+
+.news{
+    background-color: tomato;
+    margin: 0.5em 5em;
+
+    text-align: center;
+}
+.friends_list{
+    margin-bottom: 20px;
+}
+
+.title{
+    background-color: fuchsia;
+    margin: 0px 15px;
+}
+.friends{
+
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-between;*/
+    list-style: none;
+    margin: 0px 15px;
+    padding: 0;
+
+    background-color: cyan;
+}
+
+.friends .member{
+    width: 3.1em;
+    height: 3.1em;
+    border: black solid 1px;
+    margin: 10px;
+}
+
+.profile_status{
+    text-align: center;
+    margin: 15px;
+    background-color: lawngreen;
+}
+.bio{
+    margin: 15px;
+    background-color: peru;
+
+}
+.bio p{
+    padding: 10px;
+}
+.more{
+    text-align: center;
+}
+
+.photo_title{
+    background-color: gold;
+    margin: 0px 15px;
+}
+.photos{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+
+    margin: 0px 15px;
+    padding: 0;
+    background-color: seagreen;
+}
+
+.pic{
+    width: 3.1em;
+    height: 3.1em;
+    border: black solid 1px;
+    margin: 10px 10px 10px 35px;
+
+}
+.posts_title{
+    background-color: white;
+    margin: 15px 15px 0;
+}
+
+.posts{
+    background-color: darkgreen;
+    display:flex;
+    flex-flow: column wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0px 15px 15px 15px;
+}
+
+.avatar{
+    display: flex;
+    flex-flow: row wrap;
+}
+.ava{
+    background-color: hotpink;
+    width: 50px;
+    height: 50px;
+
+}
+.extra_name{
+    align-self: center;
+    background-color: aquamarine;
+    width: 150px;
+    height: 15px;
+}
+.text{
+    margin-bottom: 5px;
+    margin-left:50px ;
+    width: 250px;
+    height: 200px;
+    background-color: olivedrab;
+}
+
+
+@media (max-width: 1250px) {
+    .photo{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+
+    .text{
+        width: 70%;
+        margin: 0;
+    }
+
+    .function{
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+
+    }
+    .add_friend{
+        margin: 0;
+    }
+
+    .subscribes{
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+    .news{
+        margin: 0;
+    }
+
+
+    .extra_name{
+        width: auto;
+    }
+
+    header{
+
+    }
+    .settings{
+        margin-left: 60%;
+    }
+
+    .friends .member{
+        width: 2em;
+        height: 2em;
+    }
+    .pic{
+        width: 2em;
+        height: 2em;
+        margin-left: 25%;
+    }
+    .inform{
+        flex-flow: row nowrap;
+        padding-right: 20%;
+    }
+    .main_menu{
+        flex-flow: row nowrap;
+    }
+}

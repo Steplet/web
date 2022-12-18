@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+
+
+    <user><id>1</id><name>Ivan</name><email>ivan@mail.ru</email><psw>coolboy</psw></user>
+    <user><id>2</id><name>Kirill</name><email>kirill@gmail.ru</email><psw>football_man</psw></user>
+
+
+
+</users>
